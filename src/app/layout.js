@@ -14,6 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body  className='w-full flex flex-col justify-between min-h-screen'>
         <Navbar/>
         {children}
