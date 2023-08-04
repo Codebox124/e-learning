@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+}
+.container{
+    @apply w-[90%] mx-auto flex justify-between items-center;
+}
+
